@@ -110,7 +110,7 @@ android.applicationVariants.all { variant ->
 }
 </pre>
 
- 1. Create `Aspect` for method interception
+2. Create `Aspect` for method interception
 ------------------------------------------
 This project contains an aspect, `UncheckedExceptionAspect`, which you can customize to suit your needs. It does 2 things:
  1. Intercepts `Application.onCreate()` so that `Thread.setDefaultUncaughtExceptionHandler()` is called before `Application.onCreate()`.
